@@ -17,6 +17,7 @@
 		14E1D86D243A898F00284779 /* XCTestCase+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1D86C243A898F00284779 /* XCTestCase+JSON.swift */; };
 		14E1D86F243A8C8300284779 /* SearchResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1D86E243A8C8300284779 /* SearchResultTests.swift */; };
 		14E1D871243A8D0500284779 /* SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1D870243A8D0500284779 /* SongTests.swift */; };
+		14E1D874243A906900284779 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1D873243A906900284779 /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		14E1D86C243A898F00284779 /* XCTestCase+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+JSON.swift"; sourceTree = "<group>"; };
 		14E1D86E243A8C8300284779 /* SearchResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTests.swift; sourceTree = "<group>"; };
 		14E1D870243A8D0500284779 /* SongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTests.swift; sourceTree = "<group>"; };
+		14E1D873243A906900284779 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		14E1D842243A82FB00284779 /* ParseiTunes */ = {
 			isa = PBXGroup;
 			children = (
+				14E1D872243A905600284779 /* Models */,
 				14E1D843243A82FB00284779 /* AppDelegate.swift */,
 				14E1D845243A82FB00284779 /* SceneDelegate.swift */,
 				14E1D847243A82FB00284779 /* ViewController.swift */,
@@ -146,6 +149,14 @@
 				14E1D86C243A898F00284779 /* XCTestCase+JSON.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		14E1D872243A905600284779 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14E1D873243A906900284779 /* SearchResult.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 			files = (
 				14E1D848243A82FB00284779 /* ViewController.swift in Sources */,
 				14E1D844243A82FB00284779 /* AppDelegate.swift in Sources */,
+				14E1D874243A906900284779 /* SearchResult.swift in Sources */,
 				14E1D846243A82FB00284779 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

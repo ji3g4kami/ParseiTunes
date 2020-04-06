@@ -16,8 +16,10 @@
 		14E1D86B243A87BF00284779 /* SearchResult.json in Resources */ = {isa = PBXBuildFile; fileRef = 14E1D86A243A87BF00284779 /* SearchResult.json */; };
 		14E1D86D243A898F00284779 /* XCTestCase+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1D86C243A898F00284779 /* XCTestCase+JSON.swift */; };
 		14E1D86F243A8C8300284779 /* SearchResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1D86E243A8C8300284779 /* SearchResultTests.swift */; };
-		14E1D871243A8D0500284779 /* SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1D870243A8D0500284779 /* SongTests.swift */; };
+		14E1D871243A8D0500284779 /* SongsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1D870243A8D0500284779 /* SongsTests.swift */; };
 		14E1D874243A906900284779 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1D873243A906900284779 /* SearchResult.swift */; };
+		14E1D876243AA51400284779 /* Songs.json in Resources */ = {isa = PBXBuildFile; fileRef = 14E1D875243AA51400284779 /* Songs.json */; };
+		14E1D878243AA75300284779 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1D877243AA75300284779 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +46,10 @@
 		14E1D86A243A87BF00284779 /* SearchResult.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SearchResult.json; sourceTree = "<group>"; };
 		14E1D86C243A898F00284779 /* XCTestCase+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+JSON.swift"; sourceTree = "<group>"; };
 		14E1D86E243A8C8300284779 /* SearchResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTests.swift; sourceTree = "<group>"; };
-		14E1D870243A8D0500284779 /* SongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTests.swift; sourceTree = "<group>"; };
+		14E1D870243A8D0500284779 /* SongsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTests.swift; sourceTree = "<group>"; };
 		14E1D873243A906900284779 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		14E1D875243AA51400284779 /* Songs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Songs.json; sourceTree = "<group>"; };
+		14E1D877243AA75300284779 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				14E1D86E243A8C8300284779 /* SearchResultTests.swift */,
-				14E1D870243A8D0500284779 /* SongTests.swift */,
+				14E1D870243A8D0500284779 /* SongsTests.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -131,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				14E1D86A243A87BF00284779 /* SearchResult.json */,
+				14E1D875243AA51400284779 /* Songs.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				14E1D873243A906900284779 /* SearchResult.swift */,
+				14E1D877243AA75300284779 /* Song.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E1D876243AA51400284779 /* Songs.json in Resources */,
 				14E1D86B243A87BF00284779 /* SearchResult.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +273,7 @@
 				14E1D844243A82FB00284779 /* AppDelegate.swift in Sources */,
 				14E1D874243A906900284779 /* SearchResult.swift in Sources */,
 				14E1D846243A82FB00284779 /* SceneDelegate.swift in Sources */,
+				14E1D878243AA75300284779 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14E1D86F243A8C8300284779 /* SearchResultTests.swift in Sources */,
-				14E1D871243A8D0500284779 /* SongTests.swift in Sources */,
+				14E1D871243A8D0500284779 /* SongsTests.swift in Sources */,
 				14E1D86D243A898F00284779 /* XCTestCase+JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
